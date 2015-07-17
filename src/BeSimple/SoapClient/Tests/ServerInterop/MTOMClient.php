@@ -1,10 +1,4 @@
 <?php
-
-var_dump(array(
-    '../../../../../vendor/autoload.php',
-    is_file('../../../../../vendor/autoload.php'),
-    realpath('../../../../../vendor/autoload.php')
-    ));
     
 require '../../../../../vendor/autoload.php';
 
