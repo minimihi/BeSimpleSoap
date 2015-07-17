@@ -11,6 +11,8 @@ env:
 
 before_script:
   - composer self-update
+  - composer require symfony/framework-bundle:${SYMFONY_VERSION} --no-update
+  - composer update --no-interaction --prefer-source
   - ./src/BeSimple/SoapClient/Tests/bin/phpwebserver.sh
   - ./src/BeSimple/SoapClient/Tests/bin/axis.sh
 
