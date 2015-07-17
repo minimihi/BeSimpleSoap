@@ -37,4 +37,4 @@ class Mtom
 
 $ss = new BeSimpleSoapServer(__DIR__.'/Fixtures/MTOM.wsdl', $options);
 $ss->setClass('Mtom');
-$ss->handle();
+$ss->handle(); 
