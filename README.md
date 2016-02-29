@@ -54,3 +54,4 @@ Now you are ready to install the library:
 ```sh
 php /usr/local/bin/composer.phar install
 ```
+test
