@@ -56,3 +56,4 @@ php /usr/local/bin/composer.phar install
 ```
 test
 test2
+test2
